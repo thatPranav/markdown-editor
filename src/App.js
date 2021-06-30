@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import './App.css';
 
 export default function App() {
-  const [markdown, setMarkdown] = useState("# sup");
+  const [markdown, setMarkdown] = useState("# Add your text here");
 
   function handleChange(e) {
     setMarkdown(e.target.value);
